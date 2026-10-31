@@ -1,0 +1,71 @@
+---
+title: "Publications"
+subtitle: "Research articles, preprints, and manuscripts"
+toc: true
+---
+
+For my full publication record, please see [Google Scholar](https://scholar.google.com/citations?user=I3OCMVwAAAAJ&hl=en).
+
+## Published & accepted
+
+::: {.publication}
+### [BSNMani: Bayesian Scalar-on-Network Regression with Manifold Learning](https://doi.org/10.1214/26-AOAS2140) {.unlisted .unnumbered}
+
+**Yijun Li**, Ki Sueng Choi, Boadie W. Dunlop, W. Edward Craighead, Helen S. Mayberg, Lana Garmire, Ying Guo, Jian Kang.
+
+*The Annals of Applied Statistics*. **2026**; 20(2):1496–1515.
+:::
+
+::: {.publication}
+### [Population-Scale Integration of Spatial Omics Networks for Clinical Prediction and Biological Discovery by SPIN](https://www.medrxiv.org/content/10.1101/2025.08.09.25333297v3) {.unlisted .unnumbered}
+
+Tong Liu, Euiseong Ko, Yiwen Yang, Haowen Wu, Thatchayut Unjitwattana, Suyuan Wang, Jian Kang, **Yijun Li**†, Lana X. Garmire†.
+
+Accepted, *Cell Genomics*. **2026**. Linked title opens the preprint.
+
+† Co-corresponding authors.
+:::
+
+::: {.publication}
+### [Adding Highly Variable Genes to Spatially Variable Genes Can Improve Cell Type Clustering Performance in Spatial Transcriptomics Data](https://academic.oup.com/bioinformaticsadvances/article/6/1/vbaf285/8332225) {.unlisted .unnumbered}
+
+**Yijun Li**, Stefan Stanojevic, Bing He, Zheng Jing, Qianhui Huang, Jian Kang, Lana Garmire.
+
+*Bioinformatics Advances*. **2026**; 6(1):vbaf285.
+:::
+
+::: {.publication}
+### [ASGARD is A Single-cell Guided Pipeline to Aid Repurposing of Drugs](https://www.nature.com/articles/s41467-023-36637-3) {.unlisted .unnumbered}
+
+Bing He, Yao Xiao, Haodong Liang, Qianhui Huang, Yuheng Du, **Yijun Li**, David Garmire, Duxin Sun, Lana Garmire.
+
+*Nature Communications*. **2023**; 14(1):993.
+:::
+
+## Preprints
+
+::: {.publication}
+### [Pan-cancer estimation of prognostic immune biomarkers from histopathology using artificial intelligence](https://www.biorxiv.org/content/10.64898/2026.10.06.757083v1) {.unlisted .unnumbered}
+
+**Yijun Li**, Abdul Rahman Diab, Abdallah Lamane, James R. Lindsay, Scott J. Rodig, Rafael A. Irizarry, William Lotter.
+
+*bioRxiv*. **2026**. Preprint.
+:::
+
+## Manuscripts in submission
+
+::: {.publication}
+### CTMap: a probabilistic framework for defining anatomical regions from spatial cell-type organization {.unlisted .unnumbered}
+
+**Yijun Li**, Jeffrey Moffitt, Rafael A. Irizarry.
+
+**2026**. Manuscript in submission.
+:::
+
+::: {.publication}
+### BSNMani+: Scalable Bayesian Scalar-on-Network Regression Model via Manifold Learning {.unlisted .unnumbered}
+
+**Yijun Li**, Jian Kang.
+
+**2026**. Manuscript in submission.
+:::

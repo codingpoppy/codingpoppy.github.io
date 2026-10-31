@@ -1,0 +1,66 @@
+:root{--petrol:#28566B;--ivory:#F7F4EE;--ink:#293336;--copper:#B77959;--muted:#5B686D;--line:#DCDDD7}
+html{scroll-padding-top:95px}
+body{font-weight:400;-webkit-font-smoothing:antialiased}
+a{text-decoration-thickness:1px;text-underline-offset:4px}
+a:hover{color:#173E50;text-decoration-thickness:2px}
+a:focus-visible,button:focus-visible{outline:3px solid var(--copper);outline-offset:5px;box-shadow:none}
+.navbar{border-bottom:1px solid var(--line);padding-top:1rem;padding-bottom:1rem}
+.navbar-container{max-width:1170px;margin:auto}
+.navbar-brand{font-family:Georgia,"Times New Roman",serif;font-size:1.55rem;color:var(--petrol);margin-right:2.6rem}
+.navbar-nav .nav-link{font-size:.93rem;letter-spacing:.01em;padding:.55rem .85rem!important}
+.navbar-nav .nav-link.active{font-weight:600;text-decoration:underline;text-decoration-color:var(--copper);text-underline-offset:9px;text-decoration-thickness:2px}
+main.content{padding-top:2.4rem}
+#title-block-header{margin-bottom:2.4rem;padding-bottom:1.4rem;border-bottom:1px solid var(--line)}
+#title-block-header h1{font-size:2.9rem;line-height:1.15;letter-spacing:-.035em;margin-bottom:.65rem}
+.subtitle{font-size:1.05rem;color:var(--muted);max-width:650px;line-height:1.6}
+#title-block-header .subtitle{font-weight:400}
+h2{font-size:1.9rem;margin-top:2.8rem;padding-bottom:.65rem;border-bottom:1px solid var(--line);line-height:1.25;letter-spacing:-.02em}
+h3{font-size:1.4rem;line-height:1.4;margin-top:1.8rem}
+p{margin-bottom:1.15rem}
+.home-main{max-width:940px;margin:0 auto}
+.profile-hero{display:grid;grid-template-columns:240px 1fr;gap:3.8rem;align-items:center;margin:1rem 0 3rem;padding-bottom:2.8rem;border-bottom:1px solid var(--line)}
+.portrait-wrap{position:relative}
+.portrait-toggle{display:block;padding:0;border:0;background:transparent;border-radius:2px;cursor:pointer;line-height:0}
+.portrait-toggle:focus-visible{outline:3px solid var(--copper);outline-offset:5px}
+.portrait[hidden]{display:none}
+.portrait{display:block;width:240px;height:270px;object-fit:cover;object-position:center;border-radius:2px}
+.portrait-wrap:after{content:"";display:block;width:56px;height:3px;background:var(--copper);margin-top:18px}
+.eyebrow{font-size:.72rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0 0 .55rem}
+.profile-hero h1{font-size:3.8rem;letter-spacing:-.05em;line-height:1.1;margin:0 0 .8rem;color:var(--petrol)}
+.position{font-size:1.08rem;margin-bottom:.3rem;font-weight:500}
+.affiliation{color:var(--muted);font-size:.98rem;margin-bottom:1.4rem;line-height:1.7}
+.profile-links{display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;font-size:.9rem;line-height:1.8}
+.profile-links a{white-space:nowrap}
+.about-copy{max-width:780px}
+.about-copy h2{margin-top:0;border:0;padding:0;font-size:1.9rem}
+.research-intro{font-size:1.18rem;line-height:1.7;color:var(--petrol)}
+.research-paths{margin:2.2rem 0 0;padding:0;list-style:none;border-top:1px solid var(--line)}
+.research-paths li{border-bottom:1px solid var(--line);padding:.9rem 0;display:grid;grid-template-columns:38px 1fr;gap:.5rem}
+.research-paths .num{color:var(--copper);font-size:.8rem;padding-top:.3rem;letter-spacing:.06em}
+.research-paths a{font-weight:500;text-decoration:none}
+.research-paths a:hover{text-decoration:underline}
+.research-paths small{display:block;color:var(--muted);font-size:.87rem;margin-top:.15rem}
+.publication{padding:1rem 0 1.4rem;border-bottom:1px solid var(--line)}
+.publication p{margin-bottom:.35rem}
+.publication .pub-title{font-size:1.06rem;font-weight:600;line-height:1.5}
+.publication .pub-authors{font-size:.92rem;line-height:1.65}
+.publication .pub-meta{font-size:.9rem;color:var(--muted)}
+.publication:last-child{border-bottom:0}
+.publication h3{font-family:"Avenir Next","Segoe UI",Helvetica,Arial,sans-serif;font-size:1.08rem;font-weight:600;margin:.2rem 0 .65rem;line-height:1.55}
+.publication p{font-size:.94rem;line-height:1.7}
+.research-figure{margin:1.6rem 0 2rem;background:#fff;padding:1.2rem;border:1px solid var(--line);border-radius:2px}
+.research-figure img{width:100%;height:auto;display:block;cursor:zoom-in}
+.research-figure figcaption{color:var(--muted);font-size:.82rem;line-height:1.65;padding-top:1rem}
+.research-figure a:focus-visible{display:block}
+.project-links{display:flex;flex-wrap:wrap;gap:.65rem 1.4rem;font-size:.9rem;margin:1.3rem 0}
+.project-label{font-family:"Avenir Next","Segoe UI",sans-serif;font-size:.73rem;letter-spacing:.11em;text-transform:uppercase;color:var(--muted);margin-bottom:.6rem}
+.course-meta{color:var(--muted);font-size:.92rem}
+#TOC{font-size:.83rem;padding-top:2.7rem}
+.sidebar nav[role=doc-toc] ul>li>a.active{border-left-color:var(--copper);color:var(--petrol)!important}
+.nav-footer{border-top:1px solid var(--line);margin-top:4rem;font-size:.79rem;color:var(--muted);padding:1.6rem 1rem}
+.nav-footer a{color:var(--petrol)}
+.home-page #title-block-header{display:none}
+.home-page main.content{padding-top:2.6rem}
+@media(max-width:767px){main.content{padding-top:1.5rem}.profile-hero{grid-template-columns:155px 1fr;gap:1.5rem;margin-top:.5rem;padding-bottom:2rem}.portrait{width:155px;height:185px}.profile-hero h1{font-size:2.8rem}.eyebrow{font-size:.65rem}.position{font-size:.98rem}.affiliation{font-size:.87rem}.profile-links{font-size:.82rem;gap:.4rem 1rem}#title-block-header h1{font-size:2.45rem}h2{font-size:1.7rem}.research-figure{padding:.6rem}.navbar-brand{margin-right:1rem}.nav-footer{margin-top:2.5rem}}
+@media(max-width:480px){.profile-hero{grid-template-columns:1fr;gap:1.4rem}.portrait{width:160px;height:180px}.portrait-wrap:after{display:none}.profile-hero h1{font-size:3rem}.profile-links{font-size:.88rem}.research-intro{font-size:1.08rem}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*{transition:none!important}}

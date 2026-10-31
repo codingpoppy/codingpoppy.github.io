@@ -1,0 +1,62 @@
+project:
+  type: website
+  output-dir: dist
+  render:
+    - index.qmd
+    - research.qmd
+    - publications.qmd
+    - teaching.qmd
+  resources:
+    - assets/
+
+website:
+  site-url: https://codingpoppy.github.io/
+  title: Yijun Li
+  description: "Yijun Li develops statistical and computational methods to understand biological organization, spatial omics, and tissue architecture."
+  favicon: assets/favicon.svg
+  navbar:
+    title: Yijun Li
+    background: light
+    collapse-below: md
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: teaching.qmd
+        text: Teaching
+    right:
+      - href: assets/CV_Yijun_Li.pdf
+        text: CV
+  search: false
+  page-footer:
+    left: "Yijun Li · Dana-Farber Cancer Institute"
+    right:
+      - text: Email
+        href: mailto:liyijun@ds.dfci.harvard.edu
+      - text: GitHub
+        href: https://github.com/codingpoppy
+      - text: Google Scholar
+        href: https://scholar.google.com/citations?user=I3OCMVwAAAAJ&hl=en
+
+format:
+  html:
+    theme: [cosmo, theme.scss]
+    css: styles.css
+    toc: true
+    toc-title: On this page
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    lang: en
+    page-layout: article
+    grid:
+      body-width: 800px
+      sidebar-width: 220px
+      margin-width: 190px
+    respect-user-color-scheme: false
+
+execute:
+  freeze: auto

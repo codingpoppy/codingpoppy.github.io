@@ -1,0 +1,73 @@
+---
+title: Research
+subtitle: "Statistical methods for biological organization, from networks to tissues"
+toc: true
+toc-depth: 2
+---
+
+How does biological organization vary across individuals, and what can that variation tell us about disease? My research approaches this question through three complementary directions: population-level network modeling, spatial tissue architecture, and quantitative immune profiling from histopathology.
+
+## Biological networks & individual variation {#biological-networks}
+
+::: {.project-label}
+BSNMani · BSNMani+ · SPIN
+:::
+
+Biological networks encode coordinated activity, but their high dimensionality makes it difficult to connect network organization to individual clinical outcomes. I develop Bayesian models that learn shared network structure while quantifying how its expression varies across people. **BSNMani** jointly decomposes subject-level networks into interpretable latent subnetworks and relates subject-specific network features to clinical outcomes, with adjustment for clinical covariates. Originally developed for functional brain connectivity in major depressive disorder, the framework combines manifold learning with outcome-guided inference.
+
+**BSNMani+** extends this approach with a computationally efficient prior and Gibbs sampling strategy for larger cohorts, including the Adolescent Brain Cognitive Development study. Through **SPIN**, this modeling framework also connects spatially informed gene co-expression and protein co-abundance networks to patient phenotypes. Together, these projects seek reproducible patterns of biological coordination that support prediction and interpretation across neuroimaging and spatial omics.
+
+```{=html}
+<div class="project-links">
+  <a href="https://doi.org/10.1214/26-AOAS2140" target="_blank" rel="noopener">BSNMani paper ↗</a>
+  <a href="https://www.medrxiv.org/content/10.1101/2025.08.09.25333297v3" target="_blank" rel="noopener">SPIN preprint ↗</a>
+  <a href="https://github.com/lanagarmire/SPIN" target="_blank" rel="noopener">SPIN software ↗</a>
+</div>
+<figure class="research-figure">
+  <a href="assets/bsnmani-figure1.png" target="_blank" rel="noopener" aria-label="View the BSNMani overview at full size">
+    <img src="assets/bsnmani-figure1.png" width="880" height="815" alt="Workflow linking functional brain networks and clinical data through shared latent subnetworks and subject-specific network features.">
+  </a>
+  <figcaption>BSNMani jointly learns shared subnetworks, individual network features, and their associations with clinical outcomes. Figure 1 from <a href="https://arxiv.org/abs/2410.02965">Li et al., BSNMani</a>. Select the figure to view it at full size.</figcaption>
+</figure>
+```
+
+## Tissue architecture across scales {#tissue-architecture}
+
+::: {.project-label}
+CTMap
+:::
+
+Anatomical regions organize cellular function, yet their boundaries are often defined manually using histology and prior knowledge. **CTMap** provides a probabilistic framework for defining tissue anatomy directly from the spatial arrangement of cell types. Starting with cell identities and coordinates, the method characterizes local cellular neighborhoods and learns spatially coherent domains with interpretable cell-type composition profiles.
+
+An entropy-regularized mixture model discourages domains from collapsing into single-cell-type labels, while a hierarchy of related domains connects broad compartments to finer subregions and localized niches. Applications to gut and brain tissues illustrate how composition-based modeling can recover layered and nuclei-like organization across anatomical scales. By treating anatomy as a quantitative, multiscale property of cellular organization, this work provides a foundation for reproducible region-based analysis and for studying how tissue structure changes across biological conditions.
+
+*Manuscript in submission.*
+
+```{=html}
+<figure class="research-figure">
+  <a href="assets/ctmap-figure1.png" target="_blank" rel="noopener" aria-label="View the CTMap overview at full size">
+    <img src="assets/ctmap-figure1.png" width="1458" height="1640" loading="lazy" alt="Three-stage CTMap schematic showing local cell-type neighborhoods, regularized composition profiles, and nested anatomical regions.">
+  </a>
+  <figcaption>CTMap connects local cell-type composition to interpretable anatomical regions at multiple scales. Schematic reproduced from Li, Moffitt, and Irizarry, CTMap manuscript, Figure 1. Select the figure to view it at full size.</figcaption>
+</figure>
+```
+
+## Immune biomarkers from histopathology {#computational-pathology}
+
+::: {.project-label}
+HistoProfile
+:::
+
+Quantitative immune profiling can reveal clinically relevant variation in the tumor microenvironment, but multiplex imaging assays are not available in many cohorts. **HistoProfile** investigates whether routine hematoxylin and eosin (H&E) images can recover these measurements. Developed using a pan-cancer cohort of 2,000 paired H&E and multiplex immunofluorescence cases, the framework combines foundation-model image features with attention-based multiple instance learning to estimate intratumoral CD8, FOXP3, PD-1, and PD-L1 cell densities, together with the PD-L1 tumor proportion score. The model learns from slide-level measurements without requiring image registration between assays.
+
+In the preprint, estimated biomarkers distinguished biomarker-high from biomarker-low tumors and retained prognostic information in downstream analyses, including external cancer cohorts. This work focuses on interpretable, quantitative biomarkers and their potential to extend immune profiling to large retrospective collections of routine pathology images.
+
+```{=html}
+<div class="project-links"><a href="https://www.biorxiv.org/content/10.64898/2026.10.06.757083v1" target="_blank" rel="noopener">HistoProfile preprint ↗</a></div>
+<figure class="research-figure">
+  <a href="assets/histoprofile-figure1.png" target="_blank" rel="noopener" aria-label="View the HistoProfile overview at full size">
+    <img src="assets/histoprofile-figure1.png" width="1387" height="888" loading="lazy" alt="Multiplex-imaging measurements supervise an attention-based model that estimates immune biomarkers from H&E whole-slide images.">
+  </a>
+  <figcaption>HistoProfile learns from paired H&E and multiplex-imaging measurements to estimate immune biomarkers from routine H&E slides. Figure 1 from <a href="https://www.biorxiv.org/content/10.64898/2026.10.06.757083v1">Li et al., 2026 preprint</a>. Select the figure to view it at full size.</figcaption>
+</figure>
+```

@@ -1,0 +1,6 @@
+/dist/
+/.quarto/
+/_freeze/
+/.openai/
+.DS_Store
+**/*.quarto_ipynb
