@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-subtitle: "Research articles, preprints, and manuscripts"
+subtitle: "Selected research articles, preprints and manuscripts"
 toc: true
 ---
 
@@ -32,14 +32,6 @@ Accepted, *Cell Genomics*. **2026**. Linked title opens the preprint.
 **Yijun Li**, Stefan Stanojevic, Bing He, Zheng Jing, Qianhui Huang, Jian Kang, Lana Garmire.
 
 *Bioinformatics Advances*. **2026**; 6(1):vbaf285.
-:::
-
-::: {.publication}
-### [ASGARD is A Single-cell Guided Pipeline to Aid Repurposing of Drugs](https://www.nature.com/articles/s41467-023-36637-3) {.unlisted .unnumbered}
-
-Bing He, Yao Xiao, Haodong Liang, Qianhui Huang, Yuheng Du, **Yijun Li**, David Garmire, Duxin Sun, Lana Garmire.
-
-*Nature Communications*. **2023**; 14(1):993.
 :::
 
 ## Preprints
