@@ -37,23 +37,23 @@ toc: false
 
 ## About me
 
-I am a Research Fellow in the Department of Data Science at Dana-Farber Cancer Institute, working with Rafael Irizarry. I received my Ph.D. in Biostatistics from the University of Michigan, where I was advised by Jian Kang and Lana Garmire.
+I am a Research Fellow in the Department of Data Science at Dana-Farber Cancer Institute, working with Rafael Irizarry. I received my Ph.D. in Biostatistics from the University of Michigan, where I was advised by Jian Kang and Lana Garmire. I also hold B.S. degrees in Statistical Science and Mathematics from Duke University.
 
 ::: {.research-intro}
-I develop statistical and computational methods to understand how biological organization varies across people and changes with disease.
+I develop statistical and deep learning methods to understand how biological organization varies across individuals and relates to disease. My work spans functional brain connectivity, spatial molecular networks, tissue architecture, and tumor immune phenotypes. I'm broadly interested in combining statistical rigor with modern AI to make complex biomedical data more interpretable and clinically useful.
 :::
-
-My research connects biological networks, spatial omics, and tissue architecture. I use Bayesian modeling and statistical learning to identify shared patterns across individuals, characterize the organization of cells within tissues, and estimate molecular features from routine histopathology. Across these settings, I am interested in making complex biological structure interpretable and useful for studying clinical outcomes.
-
-I also hold an M.S. in Biostatistics from the University of Michigan and B.S. degrees in Statistical Science and Mathematics from Duke University. I enjoy teaching statistical programming, mentoring students as they develop research ideas, and bringing researchers together through Dana-Farber's Spatial Working Group.
 
 ```{=html}
 <ul class="research-paths" aria-label="Explore my research">
-  <li><span class="num">01</span><div><a href="research.html#biological-networks">Biological networks & individual variation →</a><small>BSNMani, BSNMani+, and SPIN</small></div></li>
-  <li><span class="num">02</span><div><a href="research.html#tissue-architecture">Tissue architecture across scales →</a><small>CTMap</small></div></li>
-  <li><span class="num">03</span><div><a href="research.html#computational-pathology">Immune biomarkers from histopathology →</a><small>HistoProfile</small></div></li>
+  <li><span class="num">01</span><div><a href="research.html#biological-networks">Linking biological networks to clinical outcomes at the population level →</a><small>BSNMani, BSNMani+, and SPIN</small></div></li>
+  <li><span class="num">02</span><div><a href="research.html#tissue-architecture">Multiscale tissue architecture →</a><small>CTMap</small></div></li>
+  <li><span class="num">03</span><div><a href="research.html#computational-pathology">Immune biomarker profiling from histopathology →</a><small>HistoProfile</small></div></li>
 </ul>
 ```
+
+::: {.fun-facts .mt-4}
+A few fun facts: I used to be a visual arts major, I'm a gym rat, and I have two cats. My playlists go from Illenium to Chopin—the range is real. Click my photo to meet my alter ego :)
+:::
 
 :::
 :::
