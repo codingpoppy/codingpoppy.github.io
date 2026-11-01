@@ -1,6 +1,5 @@
 ---
 title: Research
-subtitle: "Statistical methods for biological organization, from networks to tissues"
 toc: true
 toc-depth: 2
 ---
@@ -20,6 +19,7 @@ Biological networks encode coordinated activity, but their high dimensionality m
 ```{=html}
 <div class="project-links">
   <a href="https://doi.org/10.1214/26-AOAS2140" target="_blank" rel="noopener">BSNMani paper ↗</a>
+  <a href="https://github.com/codingpoppy/BSNMani" target="_blank" rel="noopener">BSNMani GitHub ↗</a>
   <a href="https://www.medrxiv.org/content/10.1101/2025.08.09.25333297v3" target="_blank" rel="noopener">SPIN preprint ↗</a>
   <a href="https://github.com/lanagarmire/SPIN" target="_blank" rel="noopener">SPIN software ↗</a>
 </div>
