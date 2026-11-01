@@ -7,7 +7,7 @@ toc-depth: 2
 
 How does biological organization vary across individuals, and what can that variation tell us about disease? My research approaches this question through three complementary directions: population-level network modeling, spatial tissue architecture, and quantitative immune profiling from histopathology.
 
-## Biological networks & individual variation {#biological-networks}
+## Linking biological networks to clinical outcomes at the population level {#biological-networks}
 
 ::: {.project-label}
 BSNMani · BSNMani+ · SPIN
@@ -31,7 +31,7 @@ Biological networks encode coordinated activity, but their high dimensionality m
 </figure>
 ```
 
-## Tissue architecture across scales {#tissue-architecture}
+## Multiscale tissue architecture {#tissue-architecture}
 
 ::: {.project-label}
 CTMap
@@ -52,7 +52,7 @@ An entropy-regularized mixture model discourages domains from collapsing into si
 </figure>
 ```
 
-## Immune biomarkers from histopathology {#computational-pathology}
+## Immune biomarker profiling from histopathology {#computational-pathology}
 
 ::: {.project-label}
 HistoProfile
