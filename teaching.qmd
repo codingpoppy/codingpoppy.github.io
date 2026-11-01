@@ -1,6 +1,6 @@
 ---
-title: "Teaching & mentoring"
-subtitle: "Statistical programming, health data science, and research mentorship"
+title: "Teaching"
+subtitle: "Statistical programming and health data science"
 toc: true
 ---
 
@@ -10,35 +10,12 @@ toc: true
 
 **University of Michigan · Fall 2019**
 
-I taught SAS programming and data manipulation to first-year master's students and graded homework and final projects.
-
 ## Graduate student instructor
 
 ### BIOS 620 · Introduction to Health Data Science
 
 **University of Michigan · Winter 2021 & Winter 2024**
 
-I guided student-designed group projects that applied federated learning and distributed computing to personal-device screen-time data collected throughout the semester. I also held weekly office hours and graded homework and examinations.
-
 ### BIOS 626 · Machine Learning for Health Sciences
 
 **University of Michigan · Winter 2021**
-
-I supported students through weekly office hours and graded homework and examinations.
-
-## Research mentoring
-
-**SPIN project · 2025–2026**
-
-I mentored three master's students in Biostatistics at the University of Michigan—Suyuan Wang, Tong Liu, and Haowen Wu—providing hands-on implementation guidance through regular remote meetings. Suyuan subsequently entered the Ph.D. program in Biostatistics at the Medical College of Wisconsin.
-
-## Scientific community
-
-**Organizer, Spatial Working Group · Dana-Farber Cancer Institute · 2026–present**
-
-I organize monthly meetings for researchers at Dana-Farber and Harvard who work on or are interested in spatial omics. Our meetings bring researchers together to exchange methods, discuss computational tools and analytical challenges, and share ongoing work.
-
-## Professional development
-
-**Rackham Professional Development Diversity, Equity, and Inclusion Certificate**  
-University of Michigan, 2024.
