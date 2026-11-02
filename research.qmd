@@ -18,6 +18,8 @@ Biological networks describe relationships among components such as brain region
 
 **BSNMani+.** BSNMani+ extends this framework to larger cohorts by replacing strict orthogonality constraints with a probabilistic approximation. This enables simpler Gibbs sampling updates and substantially reduces computation while retaining joint modeling of networks and outcomes. Applied to 4,549 children from 16 sites in the Adolescent Brain Cognitive Development study, it identified four subnetworks and estimated their associations with general cognitive ability after adjustment for demographic covariates. Highlighted patterns connected the visual network with attention, frontoparietal, and default mode networks. Another linked the somatomotor hand network with frontoparietal, cingulo-opercular, and attention networks.
 
+*Manuscript in submission.*
+
 **SPIN.** SPIN adapts this framework to spatial omics, constructing patient-specific gene co-expression or protein co-abundance networks and relating shared molecular subnetworks to clinical outcomes. In 27 donors from the Seattle Alzheimer’s Disease Brain Cell Atlas, it identified gene modules enriched for synaptic signaling and neuronal development. In 253 breast cancer patients, combining SPIN-derived protein network features with clinical variables improved cross-validated survival prediction, increasing the C-index from 0.71 to 0.78. The recovered protein modules reflected distinct programs in hormone-receptor signaling and epithelial differentiation.
 
 ```{=html}
