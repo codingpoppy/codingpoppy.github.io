@@ -54,7 +54,7 @@ An entropy-regularized mixture model discourages domains from collapsing into si
   <a href="assets/ctmap-figure1.png" target="_blank" rel="noopener" aria-label="View the CTMap overview at full size">
     <img src="assets/ctmap-figure1.png" width="1458" height="1640" loading="lazy" alt="Three-stage CTMap schematic showing local cell-type neighborhoods, regularized composition profiles, and nested anatomical regions.">
   </a>
-  <figcaption>CTMap connects local cell-type composition to interpretable anatomical regions at multiple scales. Schematic reproduced from Li, Moffitt, and Irizarry, CTMap manuscript, Figure 1. Select the figure to view it at full size.</figcaption>
+  <figcaption>Fig. 1: CTMap (Cell-Type distribution-based Anatomical Map) constructs hierarchical multiscale tissue architecture from spatial cell-type composition profiles.</figcaption>
 </figure>
 ```
 
@@ -64,9 +64,9 @@ An entropy-regularized mixture model discourages domains from collapsing into si
 HistoProfile
 :::
 
-Quantitative immune profiling can reveal clinically relevant variation in the tumor microenvironment, but multiplex imaging assays are not available in many cohorts. **HistoProfile** investigates whether routine hematoxylin and eosin (H&E) images can recover these measurements. Developed using a pan-cancer cohort of 2,000 paired H&E and multiplex immunofluorescence cases, the framework combines foundation-model image features with attention-based multiple instance learning to estimate intratumoral CD8, FOXP3, PD-1, and PD-L1 cell densities, together with the PD-L1 tumor proportion score. The model learns from slide-level measurements without requiring image registration between assays.
+The tumor immune microenvironment shapes cancer progression and prognosis. Multiplex immunofluorescence (mIF) quantifies immune-cell populations and checkpoint markers, but its cost and specialized workflows motivate estimating these biomarkers from more widely available hematoxylin and eosin (H&E) slides. A central challenge is that large cohorts pairing H&E with standardized immune measurements are scarce, and these measurements often cover only selected tissue regions, requiring models to connect whole-slide morphology to immune biomarkers without measurements for individual image regions.
 
-In the preprint, estimated biomarkers distinguished biomarker-high from biomarker-low tumors and retained prognostic information in downstream analyses, including external cancer cohorts. This work focuses on interpretable, quantitative biomarkers and their potential to extend immune profiling to large retrospective collections of routine pathology images.
+I developed **HistoProfile**, a weakly supervised framework that estimates immune biomarkers directly from H&E whole-slide images. It combines tissue-patch representations from the CONCH histopathology foundation model with biomarker-specific attention-based multiple-instance learning, which learns how to weight and aggregate patches into slide-level predictions. Training uses paired ImmunoProfile measurements from a DFCI pan-cancer cohort without requiring labels for individual patches. In held-out patients, HistoProfile captured variation in measured immune biomarkers and preserved the original assay’s survival stratification. In representative samples, attention maps highlighted additional regions beyond those selected for the assay, with immune infiltration consistent with measured biomarker levels. Applied independently to The Cancer Genome Atlas (TCGA), HistoProfile identified cancer-specific prognostic associations: higher estimated CD8 density was associated with longer survival in head and neck cancer but shorter survival in clear-cell renal cancer.
 
 ```{=html}
 <div class="project-links"><a href="https://www.biorxiv.org/content/10.64898/2026.10.06.757083v1" target="_blank" rel="noopener">HistoProfile preprint ↗</a></div>
