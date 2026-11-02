@@ -18,7 +18,7 @@ toc: false
     </button>
   </div>
   <div>
-    <p class="eyebrow">Biostatistics, AI, Spatial Biology, Biomedical Data Science</p>
+    <p class="eyebrow">Biostatistics · AI · Spatial Biology</p>
     <h1 id="profile-name">Yijun Li</h1>
     <p class="position">Research Fellow</p>
     <p class="affiliation">Department of Data Science<br>Dana-Farber Cancer Institute</p>
