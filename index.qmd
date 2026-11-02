@@ -1,6 +1,55 @@
 ---
 title: ""
-pagetitle: Biostatistics & Spatial Biology
+pagetitle: "Yijun Li | Dana-Farber Cancer Institute (DFCI)"
+title-prefix: ""
+description: "Yijun Li is a Research Fellow at Dana-Farber Cancer Institute (DFCI), developing statistical and AI methods for spatial biology and biomedical data."
+include-in-header:
+  text: |
+    <meta name="google-site-verification" content="r_uwuM5kDzZuHDdHlP00RG183ouZ5KHW7sZ6WrvMmdM" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://codingpoppy.github.io/#website",
+          "url": "https://codingpoppy.github.io/",
+          "name": "Yijun Li",
+          "publisher": {"@id": "https://codingpoppy.github.io/#person"}
+        },
+        {
+          "@type": "ProfilePage",
+          "@id": "https://codingpoppy.github.io/#profile",
+          "url": "https://codingpoppy.github.io/",
+          "name": "Yijun Li | Dana-Farber Cancer Institute (DFCI)",
+          "isPartOf": {"@id": "https://codingpoppy.github.io/#website"},
+          "mainEntity": {"@id": "https://codingpoppy.github.io/#person"}
+        },
+        {
+          "@type": "Person",
+          "@id": "https://codingpoppy.github.io/#person",
+          "name": "Yijun Li",
+          "url": "https://codingpoppy.github.io/",
+          "image": "https://codingpoppy.github.io/assets/yijun-li-portrait-v2.png",
+          "jobTitle": "Research Fellow",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Dana-Farber Cancer Institute",
+            "department": {"@type": "Organization", "name": "Department of Data Science"}
+          },
+          "alumniOf": [
+            {"@type": "CollegeOrUniversity", "name": "University of Michigan"},
+            {"@type": "CollegeOrUniversity", "name": "Duke University"}
+          ],
+          "sameAs": [
+            "https://github.com/codingpoppy",
+            "https://scholar.google.com/citations?user=I3OCMVwAAAAJ&hl=en"
+          ],
+          "mainEntityOfPage": {"@id": "https://codingpoppy.github.io/#profile"}
+        }
+      ]
+    }
+    </script>
 page-layout: full
 body-classes: home-page
 title-block-banner: false
@@ -37,7 +86,7 @@ toc: false
 
 ## About me
 
-I am a Research Fellow in the Department of Data Science at Dana-Farber Cancer Institute, working with Rafael Irizarry. I received my Ph.D. in Biostatistics from the University of Michigan, where I was advised by Jian Kang and Lana Garmire. I also hold B.S. degrees in Statistical Science and Mathematics from Duke University.
+I am a Research Fellow in the Department of Data Science at Dana-Farber Cancer Institute (DFCI), working with Rafael Irizarry. I received my Ph.D. in Biostatistics from the University of Michigan, where I was advised by Jian Kang and Lana Garmire. I also hold B.S. degrees in Statistical Science and Mathematics from Duke University.
 
 ::: {.research-intro}
 I develop statistical and deep learning methods to understand how biological organization varies across individuals and relates to disease. My work spans functional brain connectivity, spatial molecular networks, tissue architecture, and tumor immune phenotypes. I'm broadly interested in combining statistical rigor with modern AI to make complex biomedical data more interpretable and clinically useful.

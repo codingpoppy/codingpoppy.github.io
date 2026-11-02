@@ -45,6 +45,7 @@ format:
   html:
     theme: [cosmo, theme.scss]
     css: styles.css
+    canonical-url: true
     include-after-body:
       text: |
         <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "3eb9da4b1232430f91282cf258368ec3"}'></script><!-- End Cloudflare Web Analytics -->

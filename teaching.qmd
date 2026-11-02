@@ -1,5 +1,6 @@
 ---
 title: "Teaching"
+description-meta: "Yijun Li's teaching experience at the University of Michigan in statistical programming, health data science, and machine learning for health sciences."
 subtitle: "Statistical programming and health data science"
 toc: true
 ---

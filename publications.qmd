@@ -1,5 +1,6 @@
 ---
 title: "Publications"
+description-meta: "Selected research articles, preprints, and manuscripts by Yijun Li in biostatistics, biological networks, spatial biology, and computational pathology."
 subtitle: "Selected research articles, preprints and manuscripts"
 toc: true
 ---

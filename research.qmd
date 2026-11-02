@@ -1,5 +1,6 @@
 ---
 title: Research
+description-meta: "Yijun Li's research in biostatistics, AI, and spatial biology at Dana-Farber Cancer Institute (DFCI): BSNMani, SPIN, CTMap, and HistoProfile."
 toc: true
 toc-depth: 2
 ---
